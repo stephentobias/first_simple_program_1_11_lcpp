@@ -5,6 +5,11 @@ VisualStudioVersion = 17.12.35728.132 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "first_simple_program_1_11_lcpp", "first_simple_program_1_11_lcpp.vcxproj", "{02139116-F2D6-445F-8FE4-045B360B6190}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F868357D-DFC8-40C8-B674-B48648321671}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
