@@ -1,11 +1,10 @@
 #include <iostream>
 
-int getNumber();
+int getNumberFromUser();
 
 int main()
 {
-	int user_input{ };
-	user_input = getNumber();
+	int user_input{ getNumberFromUser() };
 
 	std::cout << "Double " << user_input << " is: " << 2 * user_input << '\n';
 	std::cout << "Triple " << user_input << " is: " << 3 * user_input << '\n';
@@ -13,7 +12,7 @@ int main()
 	return 0;
 }
 
-int getNumber()
+int getNumberFromUser()
 {
 	std::cout << "Enter an integer: ";
 	int user_input{ };
